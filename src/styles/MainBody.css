@@ -1,0 +1,162 @@
+.MainBody {
+  padding-left: 18vw;
+  padding-right: 50px;
+  /* border: 1px solid red; */
+}
+
+.MainBody-Header {
+  padding: 10px 0;
+}
+
+.MainBody-Header ul {
+  list-style-type: none;
+}
+
+.MainBody-Header ul li {
+  display: inline-block;
+  margin: 7.5px;
+}
+
+.MainBody-Header ul li .MuiSvgIcon-root {
+  color: var(--fadedIconColor);
+}
+
+.MainBody-Header ul li {
+  color: var(--activeIconColor);
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.NotificationsCon::after{
+  content: "";
+  display: inline-block;
+  position: relative;
+  top: -5px;
+  left: -12px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 1px solid #ffffff;
+  background-color: var(--NotificationIconBackground);
+}
+
+.Header-Title {
+  padding-top: 12px;
+}
+
+.Header-Actions ul {
+  padding: 0;
+  margin: 0;
+}
+
+.Header-Actions .NotificationsCon {
+  padding: 0 15px;
+  border: 1.5px solid transparent;
+  border-left-color: var(--fadedIconColor);
+  border-right-color: var(--fadedIconColor);
+}
+
+.Other-Menu span {
+  padding-right: 10px;
+}
+
+.Avatar {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+}
+
+.User-Profile span {
+  margin-left: 10px;
+  margin-right: 22px;
+}
+
+.Card-Container {
+  margin: 40px 0;
+}
+
+.Card {
+  width: 100%;
+  background-color: #ffffff;
+  box-shadow: 0 0 2.5px 2.5px #eeeeee;
+  padding: 25px;
+  padding-left: 25px !important;
+  padding-right: 25px !important;
+  border-radius: 5px;
+}
+
+.Today-Trend-LeftBar {
+  padding: 25px;
+}
+
+.Today-Trend-Header {
+  margin-bottom: 30px;
+}
+
+.Today-Trend-Header .Filter-Icon {
+  padding-left: 30px
+}
+
+.Today-Trend-SubHeader {
+  font-size: 12px;
+  color: #eeeeee;
+}
+
+.Today-Trend-SubHeader .active {
+  color: var(--sideBarBackground);
+}
+
+.Today-Trend-SubHeader .active.Today-Metric::before,
+.Today-Trend-SubHeader .active.Yesterday-Metric::before {
+  background-color: var(--sideBarBackground) !important;
+}
+
+.Today-Trend-SubHeader .Today-Metric,
+.Today-Trend-SubHeader .Yesterday-Metric {
+  padding: 0 15px;
+}
+
+.Today-Trend-SubHeader .Today-Metric::before,
+.Today-Trend-SubHeader .Yesterday-Metric::before {
+  content: "";
+  display: inline-block;
+  position: relative;
+  top: -2.5px;
+  width: 15px;
+  margin: 0 5px;
+  padding: 0.5px 0;
+  background-color: #eeeeee;
+}
+
+.TodayTrendChart {
+  width: 100%;
+  height: 245px;
+}
+
+.Today-Trend-RightBar-Border {
+  border-left: 2px solid #eeeeee;
+  padding-left: 0 !important;
+}
+
+.Today-Trend-RightBar ul {
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.Today-Trend-RightBar ul li a {
+  display: block;
+  height: 94.7665px;
+  color: #000000;
+  text-decoration: none;
+  border-bottom: 1px solid #eeeeee;
+  padding: 15px;
+  padding-left: 25px !important;
+  padding-right: 25px !important;
+}

@@ -1,0 +1,45 @@
+.SideBar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 15vw;
+    height: 100%;
+    background-color: var(--sideBarBackground);
+    color: #ffffff;
+    padding: 10px 0;
+}
+
+.SideBar-Header {
+    margin: 10px;
+    margin-bottom: 50px;
+}
+
+.SideBar-Header img {
+    width: 75%;
+}
+
+.SideBar-Menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.SideBar-Menu ul li a {
+    display: block;
+    padding: 5px;
+    margin: 10px 0;
+    text-decoration: none;
+    color: #ffffff88;
+    border-left: 3px solid transparent;
+    font-weight: lighter !important;
+}
+
+.SideBar-Menu ul li a:hover, .SideBar-Menu ul li a:active, .SideBar-Menu ul li a.active-menu {
+    background-color: #525e90;
+    color: #ffffff;
+    border-left-color: #ffffff;
+}
+
+.SideBar-Menu ul li a .MuiSvgIcon-root {
+    padding: 0 10px;
+    font-size: 2.5em;
+}

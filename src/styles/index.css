@@ -1,0 +1,19 @@
+html {
+  --primaryBackground: #f5f6fa;
+  --NotificationIconBackground: #404c7c;
+  --sideBarBackground: #404c7c;
+  --fadedIconColor: #d0d1d5;
+  --activeIconColor: #1d1d1d;
+}
+
+body {
+  margin: 0;
+  font-family: "Product Sans", sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--primaryBackground) !important;
+}
+
+.v-align-m {
+  vertical-align: middle !important;
+}
